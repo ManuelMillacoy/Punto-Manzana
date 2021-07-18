@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&display=swap");
+/* line 1, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+body {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+
+/* line 7, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#header .navbar {
+  background-color: mediumpurple;
+}
+
+/* line 9, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#header .navbar .navbar__img {
+  width: 100px;
+}
+
+/* line 16, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#navbarNav .nav-link {
+  color: ghostwhite;
+}
+
+/* line 21, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+.btn-secondary {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+/* line 26, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#carousel {
+  height: 720px;
+}
+
+@media all and (max-width: 675px) {
+  /* line 26, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  #carousel {
+    width: 350px;
+    height: 215px;
+  }
+}
+
+/* line 32, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#carousel .imacCar {
+  color: #000;
+  font-size: 1.5rem;
+}
+
+/* line 35, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#carousel .imacCar .imacCar__titulo {
+  font-weight: 600;
+}
+
+/* line 38, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#carousel .imacCar .imacCar__parrafo {
+  font-weight: 300;
+}
+
+/* line 42, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#carousel .ipadPro2021Car {
+  color: ghostwhite;
+  font-size: 1.5rem;
+}
+
+/* line 45, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#carousel .ipadPro2021Car .ipadPro2021Car__titulo {
+  font-weight: 600;
+}
+
+/* line 48, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#carousel .ipadPro2021Car .ipadPro2021Car__parrafo {
+  font-weight: 300;
+}
+
+/* line 54, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+.btn-primary {
+  background-color: mediumpurple;
+  border-color: transparent;
+}
+
+/* line 60, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#iphone12 .iphone12__titulo {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 30px 0px 40px 0px;
+}
+
+/* line 66, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#iphone12 .iphone12__video {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+}
+
+@media all and (max-width: 675px) {
+  /* line 66, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  #iphone12 .iphone12__video {
+    width: 350px;
+    height: 415px;
+    display: flex;
+    margin: auto;
+  }
+}
+
+/* line 78, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+.row {
+  margin: 0px;
+}
+
+/* line 81, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+.card {
+  text-align: center;
+}
+
+/* line 83, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+.card .card-body {
+  font-weight: 300;
+  line-height: 2;
+}
+
+/* line 90, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#footer .navbar {
+  background-color: mediumpurple;
+}
+
+/* line 93, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#footer .navbar-nav {
+  margin: auto;
+}
+
+/* line 98, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedor {
+  padding-top: 50px;
+  max-width: 1280px;
+  margin-bottom: 20px;
+}
+
+/* line 104, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedor h2 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ff477e;
+  background-color: papayawhip;
+}
+
+/* line 113, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedor h3 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+/* line 120, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedor .productos {
+  max-width: 800px;
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* line 130, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedor .productos .boxproducto {
+  width: 40%;
+  float: left;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: yellow;
+}
+
+/* line 139, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedor .productos .boxproducto .tachado {
+  color: whitesmoke;
+  text-decoration: line-through;
+}
+
+/*# sourceMappingURL=estilos.css.map */

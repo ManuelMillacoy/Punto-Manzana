@@ -1,0 +1,156 @@
+body{
+	font-family: $fuente;
+	font-weight: $fuente-regular;
+}
+
+#header{
+	.navbar{
+		background-color: $primero;
+		.navbar__img{
+			width: 100px;
+		}
+	}
+}
+
+#navbarNav{
+	.nav-link{
+		color: $tercero;
+	}
+}
+
+.btn-secondary{
+	background-color: $cuarto;
+	border-color: $cuarto;
+}
+
+#carousel{
+	height: 720px;
+	@media all and (max-width: 675px){
+		width: 350px;
+		height: 215px;
+	}
+	.imacCar{
+		color: $segundo;
+		font-size: 1.5rem;
+		.imacCar__titulo{
+			font-weight: $fuente-bold;
+		}
+		.imacCar__parrafo{
+			font-weight: $fuente-light;
+		}
+	}
+	.ipadPro2021Car{
+		color: $tercero;
+		font-size: 1.5rem;
+		.ipadPro2021Car__titulo{
+			font-weight: $fuente-bold;
+		}
+		.ipadPro2021Car__parrafo{
+			font-weight: $fuente-light;
+		}	
+	}
+}
+
+.btn-primary{
+		background-color: $primero;
+		border-color: transparent;
+}
+
+#iphone12{
+	.iphone12__titulo{
+		font-size: 2.5rem;
+		font-weight: $fuente_bold;
+		text-align: center;
+		margin: 30px 0px 40px 0px;
+	}	
+	.iphone12__video{
+		display: flex;
+		justify-content: center;
+		height: 80vh;
+		@media all and (max-width: 675px){
+			width: 350px;
+			height: 415px;
+			display: flex;
+			margin: auto; 
+		}
+	}
+}
+.row{
+	margin: 0px;
+}
+.card{
+	text-align: center;
+	.card-body{
+		font-weight: $fuente-light;
+		line-height: 2;
+	}
+}
+
+#footer{
+	.navbar{
+		background-color: $primero;
+	}
+	.navbar-nav{
+		margin: auto;
+	}
+}
+
+#contenedor{
+	padding-top: 50px;
+	max-width:	1280px;	
+	margin-bottom: 20px;
+}
+
+#contenedor h2{
+	font-size: 20px;
+	text-align: center;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #ff477e;
+	background-color: papayawhip;
+}
+
+#contenedor h3{
+	text-align: center;
+	font-size: 18px;
+	font-weight: 300;
+	margin-top: 30px;
+}
+
+#contenedor .productos{
+	max-width: 800px;
+	width: 70%;
+	margin: auto;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#contenedor .productos .boxproducto{
+	width: 40%;
+	float: left;
+	padding: 20px;
+	text-align: center;
+	font-weight: bold;
+	color: yellow;
+}
+
+#contenedor .productos .boxproducto .tachado{
+	color: whitesmoke;
+	text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
