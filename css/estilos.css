@@ -185,7 +185,7 @@ h4 {
   padding: 20px;
   font-weight: 700;
   font-size: 18px;
-  color: #ffffff;
+  color: #f72585;
 }
 
 /* line 168, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
@@ -502,6 +502,160 @@ h4 {
   cursor: pointer;
   transform: translateY(-3px);
   transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+}
+
+@media all and (max-width: 992px) {
+  /* line 416, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  .productapple {
+    background-image: url("../media/iphonemorado.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  /* line 426, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  .showroom {
+    max-width: 100%;
+    height: 20rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media all and (max-width: 768px) {
+  /* line 436, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  .productapple {
+    background-image: url("../media/iphonemorado.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  /* line 446, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  .showroom {
+    max-width: 100%;
+    height: 20rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  /* line 453, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  #footer .botonera {
+    width: 80%;
+    max-width: 1280px;
+    margin: 0;
+  }
+  /* line 457, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  #footer .botonera ul {
+    display: flex;
+  }
+}
+
+@media all and (max-width: 575px) {
+  /* line 464, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  .productapple {
+    background-image: url("../media/iphonemorado.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  /* line 473, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  .productapple .textoimg h3 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    text-align: left;
+    margin: 60px 0px 0px 20px;
+  }
+  /* line 481, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  .productapple .textoimg p {
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  /* line 487, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  .showroom {
+    max-width: 100%;
+    height: 12rem;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+  }
+  /* line 494, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  #grilla {
+    display: grid;
+    grid-template-areas: "iphone"  "ipad"  "macbook" "watch"  "airpods";
+    grid-template-rows: 2fr;
+    grid-row-gap: 40px;
+    height: 170vh;
+    margin-top: 20px;
+    padding: 20px;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  /* line 510, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  .parrafos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    color: papayawhip;
+    height: 300px;
+    box-shadow: 7px 13px 37px whitesmoke;
+    margin-bottom: 20px;
+  }
+  /* line 521, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  .videoplayer {
+    width: 350px;
+    height: 415px;
+    display: flex;
+    margin: auto;
+  }
+  /* line 527, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  #contenedor .productos {
+    max-width: 800px;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  /* line 535, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  #contenedor .productos .boxproducto {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: yellow;
+  }
+  /* line 543, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  #footer {
+    height: 150px;
+  }
+  /* line 545, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  #footer .botonera {
+    width: 80%;
+    max-width: 1280px;
+    margin: 0;
+  }
+  /* line 549, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  #footer .botonera ul li {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
