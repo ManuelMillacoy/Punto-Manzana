@@ -14,44 +14,47 @@ body{
 }
 
 #navbarNav{
+	.navbar-nav{
+		margin: auto;
+	}
 	.nav-link{
 		color: $primary;
 	}
 }
 
 .btn-primary {
-  background-color: #5f2c82;
-  box-shadow: 0px 0px 15px -6px black;
-  color: $primary;
-  border-color: $no-color;
-  transition: all 0.2s ease-in-out;
-  margin-left: 90px;
+	background-color: #5f2c82;
+	box-shadow: 0px 0px 15px -6px black;
+	color: $primary;
+	border-color: $no-color;
+	transition: all 0.2s ease-in-out;
+	margin-left: 90px;
 }
 
 .btn-primary:hover {
-  box-shadow: 0px 0px 0px -6px black;
-  text-decoration: none;
-  color: $primary;
-  background-color: #49a09d;
-  border-color: $no-color;
+	box-shadow: 0px 0px 0px -6px black;
+	text-decoration: none;
+	color: $primary;
+	background-color: #49a09d;
+	border-color: $no-color;
 }
 
 .btn-secondary {
-  background-color: $no-color;
-  box-shadow: 0px 0px 15px -6px black;
-  color: $primary;
-  border-color: $no-color;
-  transition: all 0.2s ease-in-out;
-  font-weight: bold;
-  text-align: left;
+  	background-color: $no-color;
+  	box-shadow: 0px 0px 15px -6px black;
+  	color: $primary;
+  	border-color: $no-color;
+  	transition: all 0.2s ease-in-out;
+  	font-weight: bold;
+  	text-align: left;
 }
 
 .btn-secondary:hover {
-  box-shadow: 0px 0px 0px -6px black;
-  text-decoration: none;
-  color: $primary;
-  background-color: #49a09d;
-  border-color: $no-color;
+  	box-shadow: 0px 0px 0px -6px black;
+  	text-decoration: none;
+  	color: $primary;
+  	background-color: #49a09d;
+  	border-color: $no-color;
 }
 
 .dropdown:hover>.dropdown-menu {
@@ -85,9 +88,9 @@ body{
 		margin: 60px 0px 0px 20px;	
 	}
 	.textoimg p{
-	margin-left: 30px;
-	font-weight: bold;
-	font-size: 25px;
+		margin-left: 30px;
+		font-weight: bold;
+		font-size: 25px;
 	}
 }
 
@@ -146,7 +149,6 @@ h4{
 	font-size: 20px;
 	padding: 15px;
 	color: $secondary;
-	height: 200px;
 	box-shadow: 7px 13px 37px whitesmoke;
 }
 
@@ -157,10 +159,10 @@ h4{
 	"watch . airpods";
 	grid-template-columns: 3fr 0fr 3fr;
 	grid-template-rows: 2fr 2fr 2fr;
-	grid-column-gap: 10px;
+	grid-column-gap: 30px;
 	grid-row-gap: 40px;
 	height: 100vh;
-	margin: 20px;
+	margin-top: 40px;
 	padding: 20px;
 	font-weight: $bold;
 	font-size: 18px;
@@ -268,9 +270,10 @@ h4{
 }
 
 #contenedor{
-	padding-top: 90px;
+	padding-top: 60px;
+	padding-bottom: 0px;
 	max-width:	1280px;	
-	margin-bottom: 20px;
+	margin: auto;
 	h2{
 		font-size: 25px;
 		text-align: center;
@@ -279,20 +282,17 @@ h4{
 		background-color: $primary;
 	}
 	.productos{
-		max-width: 800px;
-		width: 70%;
 		margin: auto;
-		margin-top: 50px;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
 		.boxproducto{
-			width: 40%;
+			
 			float: left;
 			padding: 20px;
 			text-align: center;
-			font-weight: bold;
-			color: yellow;
+			font-weight: $bold;
+			margin: auto;
 			h3{	
 				text-align: center;
 				font-size: 18px;
@@ -310,7 +310,10 @@ h4{
 			.tachado{
 				color: $accent;
 				text-decoration: line-through;
-			}		
+			}
+			.btn-primary{
+				margin-left: 0px;
+			}	
 		}
 	}
 }
@@ -392,16 +395,13 @@ h4{
 		margin: auto;
 		ul{
 			list-style: none;
-			margin-left: 70px;
-			margin-top: 20px;
-			float: left;
-			li{
-				display: inline-block;
-				margin-right: 60px;
-				a{
-					text-decoration: none;
-					color: $primary;
-				}
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			padding-top: 20px;
+			li a{
+				text-decoration: none;
+				color: $primary;
 			}
 			li:hover{
 			    cursor:pointer;
@@ -416,7 +416,7 @@ h4{
 	.productapple{
 		background-image: url("../media/iphonemorado.jpg");
 		background-repeat: no-repeat;
-		background-size: contain;
+		background-size: cover;
 		height: 100vh;
 		margin-bottom: 10px;
 		display: flex;
@@ -434,9 +434,9 @@ h4{
 
 @media all and (max-width: 768px){
 	.productapple{
-		background-image: url("../media/iphonemorado.jpg");
+		background-image: url("../media/iphonemorado1.jpg");
 		background-repeat: no-repeat;
-		background-size: contain;
+		background-size: cover;
 		height: 100vh;
 		margin-bottom: 10px;
 		display: flex;
@@ -460,29 +460,36 @@ h4{
 	} 
 }
 
-@media all and (max-width: 575px){
+@media all and (max-width: 576px){
 	.productapple{
-		background-image: url("../media/iphonemorado.jpg");
+		background-image: url("../media/iphonemorado1.jpg");
 		background-repeat: no-repeat;
-		background-size: contain;
-		height: 100vh;
+		background-size: cover;
 		margin-bottom: 10px;
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
-		.textoimg h3{
+		.textoimg{
+			max-height: 300px;
+		}
+		h3{
 			font-family: Helvetica;
 			font-weight: bold;
 			font-size: 30px;
 			color: black;
-			text-align: left;
-			margin: 60px 0px 0px 20px;
 		}
-		.textoimg p{
+		p{
 			margin-left: 30px;
 			font-weight: bold;
 			font-size: 25px;
 		}
+	}
+	#textFormat{
+		font-size: 16px;
+	}
+
+	.subtitulo{
+		font-size: 18px;
 	}
 	.showroom{
 		max-width: 100%;
@@ -492,17 +499,10 @@ h4{
 		justify-content: center;
 	}
 	#grilla{
-		display: grid;
-		grid-template-areas: 
-		"iphone" 
-		"ipad" 
-		"macbook"
-		"watch" 
-		"airpods";
-		grid-template-rows: 2fr;
-		grid-row-gap: 40px;
-		height: 170vh;
-		margin-top: 20px;
+		display: flex;
+		flex-direction: column;
+		height: 160vh;
+		margin: auto;
 		padding: 20px;
 		font-weight: 700;
 		font-size: 18px;
@@ -513,7 +513,7 @@ h4{
 		text-align: center;
 		font-size: 15px;
 		padding: 5px;
-		color: papayawhip;
+		color: $secondary;
 		height: 300px;
 		box-shadow: 7px 13px 37px whitesmoke;
 		margin-bottom: 20px;
@@ -545,9 +545,10 @@ h4{
 		.botonera{
 			width: 80%;
 			max-width: 1280px;
-			margin: 0;
-			ul li{
-				display: block;
+			
+			ul{
+				display: flex;
+				flex-direction: column;
 			}
 		}
 	}
