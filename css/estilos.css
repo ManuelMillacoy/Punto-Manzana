@@ -653,13 +653,14 @@ h4 {
   /* line 543, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #footer {
     height: 150px;
+    margin-bottom: 20px;
   }
-  /* line 545, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 546, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #footer .botonera {
     width: 80%;
     max-width: 1280px;
   }
-  /* line 549, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 550, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #footer .botonera ul {
     display: flex;
     flex-direction: column;
