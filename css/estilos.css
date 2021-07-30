@@ -7,27 +7,27 @@ body {
   height: 100%;
 }
 
-/* line 9, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 92, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 #header .navbar {
   background-color: #3f37c9;
 }
 
-/* line 11, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 94, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 #header .navbar .navbar__img {
   width: 100px;
 }
 
-/* line 18, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 101, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 #navbarNav .navbar-nav {
   margin: auto;
 }
 
-/* line 21, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 104, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 #navbarNav .nav-link {
   color: #ffffff;
 }
 
-/* line 26, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 109, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 .btn-primary {
   background-color: #5f2c82;
   box-shadow: 0px 0px 15px -6px black;
@@ -37,7 +37,7 @@ body {
   margin-left: 90px;
 }
 
-/* line 35, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 118, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 .btn-primary:hover {
   box-shadow: 0px 0px 0px -6px black;
   text-decoration: none;
@@ -46,7 +46,7 @@ body {
   border-color: transparent;
 }
 
-/* line 43, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 126, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 .btn-secondary {
   background-color: transparent;
   box-shadow: 0px 0px 15px -6px black;
@@ -57,7 +57,7 @@ body {
   text-align: left;
 }
 
-/* line 53, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 136, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 .btn-secondary:hover {
   box-shadow: 0px 0px 0px -6px black;
   text-decoration: none;
@@ -66,24 +66,24 @@ body {
   border-color: transparent;
 }
 
-/* line 61, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 144, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 .dropdown:hover > .dropdown-menu {
   display: block;
 }
 
-/* line 65, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 148, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 .dropdown > .dropdown-toggle:active {
   pointer-events: none;
 }
 
-/* line 69, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 152, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 .navbar-nav li:hover {
   cursor: pointer;
   transform: translateY(-3px);
   transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
 }
 
-/* line 75, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 158, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 .productapple {
   background-image: url("../media/iphonemorado.jpg");
   background-repeat: no-repeat;
@@ -94,7 +94,7 @@ body {
   box-shadow: 7px 15px 37px whitesmoke;
 }
 
-/* line 83, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 166, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 .productapple .textoimg h3 {
   font-family: Helvetica;
   font-weight: bold;
@@ -104,14 +104,14 @@ body {
   margin: 60px 0px 0px 20px;
 }
 
-/* line 91, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 174, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 .productapple .textoimg p {
   margin-left: 30px;
   font-weight: bold;
   font-size: 25px;
 }
 
-/* line 98, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 181, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 .videoplayer {
   height: 70vh;
   margin-top: 20px;
@@ -120,7 +120,7 @@ body {
   justify-content: center;
 }
 
-/* line 106, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 189, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 .subtituloiphone h2 {
   margin-top: 30px;
   text-align: center;
@@ -128,7 +128,7 @@ body {
   font-weight: 700;
 }
 
-/* line 113, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 196, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 .subtituloiphone h3 {
   margin-top: 30px;
   text-align: center;
@@ -136,7 +136,7 @@ body {
   font-weight: 400;
 }
 
-/* line 120, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 203, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 h1 {
   padding: 10px;
   font-family: Roboto, sans-serif;
@@ -147,26 +147,26 @@ h1 {
   margin-bottom: 15px;
 }
 
-/* line 130, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 213, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 h2 {
   padding: 15px;
   color: #3f37c9;
   font-size: 30px;
 }
 
-/* line 136, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 219, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 h3 {
   padding: 15px;
   color: #f72585;
 }
 
-/* line 141, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 224, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 h4 {
   color: #ff477e;
   font-weight: bold;
 }
 
-/* line 146, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 229, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 .parrafos {
   display: flex;
   flex-direction: row;
@@ -177,7 +177,7 @@ h4 {
   box-shadow: 7px 13px 37px whitesmoke;
 }
 
-/* line 156, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 239, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 #grilla {
   display: grid;
   grid-template-areas: "iphone ipad macbook" "watch . airpods";
@@ -193,7 +193,7 @@ h4 {
   color: #f72585;
 }
 
-/* line 171, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 254, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 #grilla .iphone {
   grid-area: iphone;
   display: flex;
@@ -201,14 +201,14 @@ h4 {
   align-items: center;
 }
 
-/* line 177, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 260, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 #grilla .iphone:hover {
   cursor: pointer;
   transform: translateY(-5px);
   transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
 }
 
-/* line 182, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 265, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 #grilla .ipad {
   grid-area: ipad;
   display: flex;
@@ -216,14 +216,14 @@ h4 {
   align-items: center;
 }
 
-/* line 188, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 271, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 #grilla .ipad:hover {
   cursor: pointer;
   transform: translateY(-5px);
   transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
 }
 
-/* line 193, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 276, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 #grilla .macbook {
   grid-area: macbook;
   justify-self: center;
@@ -232,14 +232,14 @@ h4 {
   align-items: center;
 }
 
-/* line 200, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 283, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 #grilla .macbook:hover {
   cursor: pointer;
   transform: translateY(-5px);
   transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
 }
 
-/* line 205, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 288, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 #grilla .watch {
   grid-area: watch;
   align-self: stretch;
@@ -249,14 +249,14 @@ h4 {
   justify-self: end;
 }
 
-/* line 213, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 296, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 #grilla .watch:hover {
   cursor: pointer;
   transform: translateY(-5px);
   transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
 }
 
-/* line 218, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 301, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 #grilla .airpods {
   grid-area: airpods;
   align-self: stretch;
@@ -266,14 +266,14 @@ h4 {
   justify-self: start;
 }
 
-/* line 226, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 309, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 #grilla .airpods:hover {
   cursor: pointer;
   transform: translateY(-5px);
   transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
 }
 
-/* line 233, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 316, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 .showroom {
   max-width: 100%;
   height: 40rem;
@@ -282,14 +282,14 @@ h4 {
   justify-content: center;
 }
 
-/* line 241, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 324, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 .subtitulo {
   background-color: #f72585;
   color: #ffffff;
   text-align: center;
 }
 
-/* line 247, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 330, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 #textFormat {
   padding: 50px;
   text-align: center;
@@ -300,30 +300,30 @@ h4 {
   box-shadow: 7px 13px 37px #ffffff;
 }
 
-/* line 257, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 340, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 .datos {
   text-align: center;
 }
 
-/* line 259, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 342, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 .datos h2 {
   font-size: 25px;
 }
 
-/* line 262, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 345, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 .datos h3 {
   font-size: 20px;
 }
 
-/* line 267, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 350, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 .mapa {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-/* line 273, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
-#contenedor {
+/* line 356, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorOfertas {
   padding-top: 60px;
   padding-bottom: 0px;
   max-width: 1280px;
@@ -331,8 +331,8 @@ h4 {
   margin: auto;
 }
 
-/* line 279, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
-#contenedor h2 {
+/* line 14, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorOfertas h2 {
   font-size: 25px;
   text-align: center;
   font-weight: 700;
@@ -340,16 +340,16 @@ h4 {
   background-color: #ffffff;
 }
 
-/* line 286, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
-#contenedor .productos {
+/* line 21, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorOfertas .productos {
   margin: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-/* line 291, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
-#contenedor .productos .boxproducto {
+/* line 26, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorOfertas .productos .boxproducto {
   float: left;
   padding: 20px;
   text-align: center;
@@ -357,8 +357,8 @@ h4 {
   margin: auto;
 }
 
-/* line 297, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
-#contenedor .productos .boxproducto h3 {
+/* line 32, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorOfertas .productos .boxproducto h3 {
   text-align: center;
   font-size: 18px;
   font-weight: 300;
@@ -366,29 +366,365 @@ h4 {
   color: #03071e;
 }
 
-/* line 304, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
-#contenedor .productos .boxproducto h4 {
+/* line 39, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorOfertas .productos .boxproducto h4 {
   color: #f72585;
   font-size: 20px;
 }
 
-/* line 308, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
-#contenedor .productos .boxproducto p {
+/* line 43, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorOfertas .productos .boxproducto p {
   color: #3f37c9;
 }
 
-/* line 311, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
-#contenedor .productos .boxproducto .tachado {
+/* line 46, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorOfertas .productos .boxproducto .tachado {
   color: #f72585;
   text-decoration: line-through;
 }
 
-/* line 315, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
-#contenedor .productos .boxproducto .btn-primary {
+/* line 50, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorOfertas .productos .boxproducto .btn-primary {
   margin-left: 0px;
 }
 
-/* line 322, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 358, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorOfertas .tachado {
+  color: #f72585;
+  text-decoration: line-through;
+}
+
+/* line 364, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorIphone {
+  padding-top: 60px;
+  padding-bottom: 0px;
+  max-width: 1280px;
+  height: 80vh;
+  margin: auto;
+}
+
+/* line 14, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorIphone h2 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 700;
+  color: #3f37c9;
+  background-color: #ffffff;
+}
+
+/* line 21, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorIphone .productos {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* line 26, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorIphone .productos .boxproducto {
+  float: left;
+  padding: 20px;
+  text-align: center;
+  font-weight: 700;
+  margin: auto;
+}
+
+/* line 32, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorIphone .productos .boxproducto h3 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 30px;
+  color: #03071e;
+}
+
+/* line 39, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorIphone .productos .boxproducto h4 {
+  color: #f72585;
+  font-size: 20px;
+}
+
+/* line 43, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorIphone .productos .boxproducto p {
+  color: #3f37c9;
+}
+
+/* line 46, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorIphone .productos .boxproducto .tachado {
+  color: #f72585;
+  text-decoration: line-through;
+}
+
+/* line 50, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorIphone .productos .boxproducto .btn-primary {
+  margin-left: 0px;
+}
+
+/* line 368, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorIpad {
+  padding-top: 60px;
+  padding-bottom: 0px;
+  max-width: 1280px;
+  height: 80vh;
+  margin: auto;
+}
+
+/* line 14, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorIpad h2 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 700;
+  color: #3f37c9;
+  background-color: #ffffff;
+}
+
+/* line 21, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorIpad .productos {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* line 26, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorIpad .productos .boxproducto {
+  float: left;
+  padding: 20px;
+  text-align: center;
+  font-weight: 700;
+  margin: auto;
+}
+
+/* line 32, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorIpad .productos .boxproducto h3 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 30px;
+  color: #03071e;
+}
+
+/* line 39, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorIpad .productos .boxproducto h4 {
+  color: #f72585;
+  font-size: 20px;
+}
+
+/* line 43, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorIpad .productos .boxproducto p {
+  color: #3f37c9;
+}
+
+/* line 46, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorIpad .productos .boxproducto .tachado {
+  color: #f72585;
+  text-decoration: line-through;
+}
+
+/* line 50, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorIpad .productos .boxproducto .btn-primary {
+  margin-left: 0px;
+}
+
+/* line 372, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorMacbook {
+  padding-top: 60px;
+  padding-bottom: 0px;
+  max-width: 1280px;
+  height: 80vh;
+  margin: auto;
+}
+
+/* line 14, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorMacbook h2 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 700;
+  color: #3f37c9;
+  background-color: #ffffff;
+}
+
+/* line 21, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorMacbook .productos {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* line 26, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorMacbook .productos .boxproducto {
+  float: left;
+  padding: 20px;
+  text-align: center;
+  font-weight: 700;
+  margin: auto;
+}
+
+/* line 32, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorMacbook .productos .boxproducto h3 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 30px;
+  color: #03071e;
+}
+
+/* line 39, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorMacbook .productos .boxproducto h4 {
+  color: #f72585;
+  font-size: 20px;
+}
+
+/* line 43, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorMacbook .productos .boxproducto p {
+  color: #3f37c9;
+}
+
+/* line 46, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorMacbook .productos .boxproducto .tachado {
+  color: #f72585;
+  text-decoration: line-through;
+}
+
+/* line 50, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorMacbook .productos .boxproducto .btn-primary {
+  margin-left: 0px;
+}
+
+/* line 376, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorWatch {
+  padding-top: 60px;
+  padding-bottom: 0px;
+  max-width: 1280px;
+  height: 80vh;
+  margin: auto;
+}
+
+/* line 14, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorWatch h2 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 700;
+  color: #3f37c9;
+  background-color: #ffffff;
+}
+
+/* line 21, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorWatch .productos {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* line 26, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorWatch .productos .boxproducto {
+  float: left;
+  padding: 20px;
+  text-align: center;
+  font-weight: 700;
+  margin: auto;
+}
+
+/* line 32, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorWatch .productos .boxproducto h3 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 30px;
+  color: #03071e;
+}
+
+/* line 39, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorWatch .productos .boxproducto h4 {
+  color: #f72585;
+  font-size: 20px;
+}
+
+/* line 43, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorWatch .productos .boxproducto p {
+  color: #3f37c9;
+}
+
+/* line 46, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorWatch .productos .boxproducto .tachado {
+  color: #f72585;
+  text-decoration: line-through;
+}
+
+/* line 50, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorWatch .productos .boxproducto .btn-primary {
+  margin-left: 0px;
+}
+
+/* line 380, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorAirpods {
+  padding-top: 60px;
+  padding-bottom: 0px;
+  max-width: 1280px;
+  height: 80vh;
+  margin: auto;
+}
+
+/* line 14, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorAirpods h2 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 700;
+  color: #3f37c9;
+  background-color: #ffffff;
+}
+
+/* line 21, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorAirpods .productos {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* line 26, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorAirpods .productos .boxproducto {
+  float: left;
+  padding: 20px;
+  text-align: center;
+  font-weight: 700;
+  margin: auto;
+}
+
+/* line 32, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorAirpods .productos .boxproducto h3 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 30px;
+  color: #03071e;
+}
+
+/* line 39, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorAirpods .productos .boxproducto h4 {
+  color: #f72585;
+  font-size: 20px;
+}
+
+/* line 43, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorAirpods .productos .boxproducto p {
+  color: #3f37c9;
+}
+
+/* line 46, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorAirpods .productos .boxproducto .tachado {
+  color: #f72585;
+  text-decoration: line-through;
+}
+
+/* line 50, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+#contenedorAirpods .productos .boxproducto .btn-primary {
+  margin-left: 0px;
+}
+
+/* line 384, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 #pie {
   background-color: none;
   height: 80px;
@@ -396,7 +732,7 @@ h4 {
   bottom: 0px;
 }
 
-/* line 327, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 389, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 #pie .redes {
   width: 80%;
   max-width: 1280px;
@@ -406,71 +742,71 @@ h4 {
   float: center;
 }
 
-/* line 334, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 396, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 #pie .redes img {
   display: block;
   width: 60%;
   margin: auto;
 }
 
-/* line 342, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
-.contenedor {
-  background-color: papayawhip;
+/* line 404, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+.contenedorForm {
+  background-color: #3f37c9;
   width: 400px;
   padding: 30px;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
   border-radius: 4px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "ubuntu", sans-serif;
   text-align: center;
-  color: #5f2c82;
-  box-shadow: 7px 13px 37px whitesmoke;
+  color: #ffffff;
+  box-shadow: 7px 13px 37px #ffffff;
 }
 
-/* line 354, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
-.contenedor .control {
+/* line 416, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+.contenedorForm .control {
   width: 100%;
-  background-color: whitesmoke;
+  background-color: #ffffff;
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 20px;
   border: 1px solid #1f53c5;
-  font-family: 'Roboto', sans-serif;
+  font-family: "ubuntu", sans-serif;
   font-size: 18px;
 }
 
-/* line 364, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
-.contenedor .boton {
+/* line 426, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+.contenedorForm .boton {
   width: 100%;
   height: 45px;
   margin-top: 15px;
   border-radius: 4px;
   border: none;
-  color: white;
+  color: #ffffff;
   text-transform: uppercase;
-  background: #49a09d;
+  background: #f72585;
   font-size: 20px;
 }
 
-/* line 375, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
-.contenedor .boton:hover {
+/* line 437, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+.contenedorForm .boton:hover {
   cursor: pointer;
   transform: translateY(-3px);
   transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
 }
 
-/* line 380, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
-.contenedor .boton:active {
+/* line 442, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+.contenedorForm .boton:active {
   transform: translateY(3px);
 }
 
-/* line 383, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
-.contenedor .control:focus {
+/* line 445, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+.contenedorForm .control:focus {
   height: 60px;
 }
 
-/* line 388, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 450, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 #footer {
   background: #3f37c9;
   height: 80px;
@@ -478,14 +814,14 @@ h4 {
   font-weight: 700;
 }
 
-/* line 393, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 455, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 #footer .botonera {
   width: 80%;
   max-width: 1280px;
   margin: auto;
 }
 
-/* line 397, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 459, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 #footer .botonera ul {
   list-style: none;
   display: flex;
@@ -494,13 +830,13 @@ h4 {
   padding-top: 20px;
 }
 
-/* line 403, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 465, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 #footer .botonera ul li a {
   text-decoration: none;
   color: #ffffff;
 }
 
-/* line 407, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+/* line 469, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
 #footer .botonera ul li:hover {
   cursor: pointer;
   transform: translateY(-3px);
@@ -508,7 +844,7 @@ h4 {
 }
 
 @media all and (max-width: 992px) {
-  /* line 417, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 480, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   .productapple {
     background-image: url("../media/iphonemorado.jpg");
     background-repeat: no-repeat;
@@ -519,7 +855,7 @@ h4 {
     flex-direction: row;
     justify-content: center;
   }
-  /* line 427, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 490, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   .showroom {
     max-width: 100%;
     height: 20rem;
@@ -530,7 +866,7 @@ h4 {
 }
 
 @media all and (max-width: 768px) {
-  /* line 437, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 500, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   .productapple {
     background-image: url("../media/iphonemorado1.jpg");
     background-repeat: no-repeat;
@@ -541,7 +877,7 @@ h4 {
     flex-direction: row;
     justify-content: center;
   }
-  /* line 447, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 510, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   .showroom {
     max-width: 100%;
     height: 20rem;
@@ -549,20 +885,20 @@ h4 {
     display: flex;
     justify-content: center;
   }
-  /* line 454, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 517, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #footer .botonera {
     width: 80%;
     max-width: 1280px;
     margin: 0;
   }
-  /* line 458, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 521, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #footer .botonera ul {
     display: flex;
   }
 }
 
 @media all and (max-width: 576px) {
-  /* line 465, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 528, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   .productapple {
     background-image: url("../media/iphonemorado1.jpg");
     background-repeat: no-repeat;
@@ -572,32 +908,32 @@ h4 {
     flex-direction: row;
     justify-content: center;
   }
-  /* line 473, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 536, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   .productapple .textoimg {
     max-height: 300px;
   }
-  /* line 476, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 539, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   .productapple h3 {
     font-family: Helvetica;
     font-weight: bold;
     font-size: 30px;
     color: black;
   }
-  /* line 482, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 545, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   .productapple p {
     margin-left: 30px;
     font-weight: bold;
     font-size: 25px;
   }
-  /* line 488, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 551, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #textFormat {
     font-size: 16px;
   }
-  /* line 492, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 555, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   .subtitulo {
     font-size: 18px;
   }
-  /* line 495, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 558, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   .showroom {
     max-width: 100%;
     height: 12rem;
@@ -605,7 +941,7 @@ h4 {
     display: flex;
     justify-content: center;
   }
-  /* line 502, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 565, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #grilla {
     display: flex;
     flex-direction: column;
@@ -615,7 +951,7 @@ h4 {
     font-weight: 700;
     font-size: 18px;
   }
-  /* line 511, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 574, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   .parrafos {
     display: flex;
     flex-direction: column;
@@ -627,18 +963,18 @@ h4 {
     box-shadow: 7px 13px 37px whitesmoke;
     margin-bottom: 20px;
   }
-  /* line 522, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 585, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   .videoplayer {
     width: 300px;
     height: 500px;
     display: flex;
     margin: auto;
   }
-  /* line 529, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 592, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #contenedor {
     height: 350vh;
   }
-  /* line 531, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 594, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #contenedor .productos {
     width: 70%;
     margin: auto;
@@ -647,18 +983,18 @@ h4 {
     flex-direction: column;
     justify-content: space-between;
   }
-  /* line 538, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 601, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #contenedor .productos .boxproducto {
     width: 100%;
     padding: 20px;
     text-align: center;
     font-weight: bold;
   }
-  /* line 547, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 610, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #contenedorOfertas {
-    height: 160vh;
+    height: 200vh;
   }
-  /* line 549, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 58, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #contenedorOfertas .productos {
     width: 70%;
     margin: auto;
@@ -667,14 +1003,14 @@ h4 {
     flex-direction: column;
     justify-content: space-between;
   }
-  /* line 556, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 65, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #contenedorOfertas .productos .boxproducto {
     width: 100%;
     padding: 20px;
     text-align: center;
     font-weight: bold;
   }
-  /* line 561, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 70, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #contenedorOfertas .productos .boxproducto h3 {
     text-align: center;
     font-size: 18px;
@@ -682,29 +1018,70 @@ h4 {
     margin-top: 30px;
     color: #03071e;
   }
-  /* line 568, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 77, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #contenedorOfertas .productos .boxproducto h4 {
     color: #f72585;
     font-size: 20px;
   }
-  /* line 572, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 81, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #contenedorOfertas .productos .boxproducto p {
     color: #3f37c9;
   }
-  /* line 575, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
-  #contenedorOfertas .productos .boxproducto .tachado {
-    color: #f72585;
-    text-decoration: line-through;
-  }
-  /* line 579, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 84, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #contenedorOfertas .productos .boxproducto .btn-primary {
     margin-left: 0px;
   }
-  /* line 586, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 613, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  #contenedorOfertas .tachado {
+    color: #f72585;
+    text-decoration: line-through;
+  }
+  /* line 619, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  #contenedorIphone {
+    height: 340vh;
+  }
+  /* line 58, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  #contenedorIphone .productos {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  /* line 65, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  #contenedorIphone .productos .boxproducto {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  /* line 70, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  #contenedorIphone .productos .boxproducto h3 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 30px;
+    color: #03071e;
+  }
+  /* line 77, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  #contenedorIphone .productos .boxproducto h4 {
+    color: #f72585;
+    font-size: 20px;
+  }
+  /* line 81, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  #contenedorIphone .productos .boxproducto p {
+    color: #3f37c9;
+  }
+  /* line 84, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  #contenedorIphone .productos .boxproducto .btn-primary {
+    margin-left: 0px;
+  }
+  /* line 624, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #contenedorIpad {
     height: 220vh;
   }
-  /* line 588, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 58, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #contenedorIpad .productos {
     width: 70%;
     margin: auto;
@@ -713,14 +1090,14 @@ h4 {
     flex-direction: column;
     justify-content: space-between;
   }
-  /* line 595, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 65, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #contenedorIpad .productos .boxproducto {
     width: 100%;
     padding: 20px;
     text-align: center;
     font-weight: bold;
   }
-  /* line 600, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 70, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #contenedorIpad .productos .boxproducto h3 {
     text-align: center;
     font-size: 18px;
@@ -728,24 +1105,24 @@ h4 {
     margin-top: 30px;
     color: #03071e;
   }
-  /* line 607, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 77, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #contenedorIpad .productos .boxproducto h4 {
     color: #f72585;
     font-size: 20px;
   }
-  /* line 611, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 81, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #contenedorIpad .productos .boxproducto p {
     color: #3f37c9;
   }
-  /* line 614, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 84, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #contenedorIpad .productos .boxproducto .btn-primary {
     margin-left: 0px;
   }
-  /* line 621, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 629, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #contenedorMacbook {
     height: 300vh;
   }
-  /* line 623, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 58, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #contenedorMacbook .productos {
     width: 70%;
     margin: auto;
@@ -754,14 +1131,14 @@ h4 {
     flex-direction: column;
     justify-content: space-between;
   }
-  /* line 630, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 65, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #contenedorMacbook .productos .boxproducto {
     width: 100%;
     padding: 20px;
     text-align: center;
     font-weight: bold;
   }
-  /* line 635, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 70, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #contenedorMacbook .productos .boxproducto h3 {
     text-align: center;
     font-size: 18px;
@@ -769,30 +1146,112 @@ h4 {
     margin-top: 30px;
     color: #03071e;
   }
-  /* line 642, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 77, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #contenedorMacbook .productos .boxproducto h4 {
     color: #f72585;
     font-size: 20px;
   }
-  /* line 646, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 81, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #contenedorMacbook .productos .boxproducto p {
     color: #3f37c9;
   }
-  /* line 649, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 84, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #contenedorMacbook .productos .boxproducto .btn-primary {
     margin-left: 0px;
   }
-  /* line 656, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 634, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  #contenedorWatch {
+    height: 330vh;
+  }
+  /* line 58, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  #contenedorWatch .productos {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  /* line 65, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  #contenedorWatch .productos .boxproducto {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  /* line 70, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  #contenedorWatch .productos .boxproducto h3 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 30px;
+    color: #03071e;
+  }
+  /* line 77, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  #contenedorWatch .productos .boxproducto h4 {
+    color: #f72585;
+    font-size: 20px;
+  }
+  /* line 81, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  #contenedorWatch .productos .boxproducto p {
+    color: #3f37c9;
+  }
+  /* line 84, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  #contenedorWatch .productos .boxproducto .btn-primary {
+    margin-left: 0px;
+  }
+  /* line 639, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  #contenedorAirpods {
+    height: 320vh;
+  }
+  /* line 58, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  #contenedorAirpods .productos {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  /* line 65, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  #contenedorAirpods .productos .boxproducto {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  /* line 70, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  #contenedorAirpods .productos .boxproducto h3 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 30px;
+    color: #03071e;
+  }
+  /* line 77, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  #contenedorAirpods .productos .boxproducto h4 {
+    color: #f72585;
+    font-size: 20px;
+  }
+  /* line 81, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  #contenedorAirpods .productos .boxproducto p {
+    color: #3f37c9;
+  }
+  /* line 84, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  #contenedorAirpods .productos .boxproducto .btn-primary {
+    margin-left: 0px;
+  }
+  /* line 645, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #footer {
     height: 100%;
     padding-bottom: 20px;
     position: static;
   }
-  /* line 660, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 649, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #footer .botonera {
     width: 80%;
   }
-  /* line 662, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
+  /* line 651, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   #footer .botonera ul {
     display: flex;
     flex-direction: column;
