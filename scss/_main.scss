@@ -2,6 +2,7 @@ body{
 	font-family: $fuente;
 	font-weight: $regular;
 	background: $primary;
+	height: 100%;
 }
 
 #header{
@@ -272,7 +273,8 @@ h4{
 #contenedor{
 	padding-top: 60px;
 	padding-bottom: 0px;
-	max-width:	1280px;	
+	max-width: 1280px;
+	height: 80vh;	
 	margin: auto;
 	h2{
 		font-size: 25px;
@@ -287,7 +289,6 @@ h4{
 		flex-direction: row;
 		justify-content: space-between;
 		.boxproducto{
-			
 			float: left;
 			padding: 20px;
 			text-align: center;
@@ -501,10 +502,10 @@ h4{
 	#grilla{
 		display: flex;
 		flex-direction: column;
-		height: 160vh;
+		height: 210vh;
 		margin: auto;
 		padding: 20px;
-		font-weight: 700;
+		font-weight: $bold;
 		font-size: 18px;
 	}
 	.parrafos{
@@ -519,37 +520,149 @@ h4{
 		margin-bottom: 20px;
 	}
 	.videoplayer {
-	    width: 350px;
-	    height: 415px;
+	    width: 300px;
+	    height: 500px;
 	    display: flex;
 	    margin: auto;
   	}
-  	#contenedor .productos{
-		max-width: 800px;
-		width: 70%;
-		margin: auto;
-		margin-top: 50px;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		.boxproducto{
-			width: 100%;
-			padding: 20px;
-			text-align: center;
-			font-weight: bold;
-			color: yellow;
+
+  	#contenedor{
+  		height: 350vh;
+  		.productos{
+  			width: 70%;
+			margin: auto;
+			margin-top: 50px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			.boxproducto{
+				width: 100%;
+				padding: 20px;
+				text-align: center;
+				font-weight: bold;
+			}
+		} 
+  	}
+
+  	#contenedorOfertas{
+		height: 160vh;
+		.productos{
+  			width: 70%;
+			margin: auto;
+			margin-top: 50px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			.boxproducto{
+				width: 100%;
+				padding: 20px;
+				text-align: center;
+				font-weight: bold;
+				h3{	
+				text-align: center;
+				font-size: 18px;
+				font-weight: $light;
+				margin-top: 30px;
+				color: $tertiary;
+				}
+				h4{
+					color: $accent;
+					font-size: 20px;
+				}
+				p{
+					color: $secondary;
+				}
+				.tachado{
+					color: $accent;
+					text-decoration: line-through;
+				}
+				.btn-primary{
+					margin-left: 0px;
+				}	
+			}
+		} 
+  	}
+
+  	#contenedorIpad{
+  		height: 220vh;
+  		.productos{
+  			width: 70%;
+			margin: auto;
+			margin-top: 50px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			.boxproducto{
+				width: 100%;
+				padding: 20px;
+				text-align: center;
+				font-weight: bold;
+				h3{	
+				text-align: center;
+				font-size: 18px;
+				font-weight: $light;
+				margin-top: 30px;
+				color: $tertiary;
+				}
+				h4{
+					color: $accent;
+					font-size: 20px;
+				}
+				p{
+					color: $secondary;
+				}
+				.btn-primary{
+					margin-left: 0px;
+				}	
+			} 
 		}
-	} 
+  	}
+
+  	#contenedorMacbook{
+  		height: 300vh;
+  		.productos{
+  			width: 70%;
+			margin: auto;
+			margin-top: 50px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			.boxproducto{
+				width: 100%;
+				padding: 20px;
+				text-align: center;
+				font-weight: bold;
+				h3{	
+				text-align: center;
+				font-size: 18px;
+				font-weight: $light;
+				margin-top: 30px;
+				color: $tertiary;
+				}
+				h4{
+					color: $accent;
+					font-size: 20px;
+				}
+				p{
+					color: $secondary;
+				}
+				.btn-primary{
+					margin-left: 0px;
+				}	
+			} 
+		}
+  	}
+
 	#footer{
-		height: 150px;
-		margin-bottom: 20px;
+		height: 100%;
+		padding-bottom: 20px;
+		position: static;
 		.botonera{
-			width: 80%;
-			max-width: 1280px;
-			
+			width: 80%;			
 			ul{
 				display: flex;
 				flex-direction: column;
+				text-align: center;
 			}
 		}
 	}
