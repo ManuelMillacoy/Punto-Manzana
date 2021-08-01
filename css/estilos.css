@@ -933,7 +933,7 @@ h4 {
   }
   /* line 572, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   .showroom {
-    max-width: 100%;
+    max-width: 50%;
     height: 20rem;
     margin: auto;
     display: flex;
@@ -1010,7 +1010,7 @@ h4 {
   }
   /* line 649, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   .showroom {
-    max-width: 100%;
+    max-width: 50%;
     height: 12rem;
     margin: 20px 0px;
     display: flex;
