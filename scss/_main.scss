@@ -598,7 +598,9 @@ h4{
 		display: flex;
 		justify-content: center;
 	}
-
+	.btn-secondary{
+		padding: 0;
+	}
 	#grilla{
 		display: flex;
 		flex-direction: column;
