@@ -985,11 +985,11 @@ h4 {
   }
   /* line 625, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   .subtituloiphone {
-    background-image: url("../media/iphonemorado1.jpg");
+    background-image: url("../media/iphonemorado1.1.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center top;
-    height: 60vh;
+    height: 30vh;
   }
   /* line 631, ../../../../../Users/manuelmac/Desktop/proyecto_final/scss/_main.scss */
   .subtituloiphone h2 {
