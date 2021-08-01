@@ -99,9 +99,6 @@ body{
 #header{
 	.navbar{
 		background-color: $secondary;
-		.navbar__img{
-			width: 100px;
-		}
 	}
 }
 
@@ -154,34 +151,25 @@ body{
 	pointer-events: none;
 }
 
-.navbar-nav li:hover{
+.navbar-nav li a:hover{
     cursor:pointer;
     transform: translateY(-3px);
     transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+    color: $accent;
 }
 
 .carousel-item{
 	h5{
 		color: $primary;
 		font-size: 30px;
-		font-weight: $bold;	
+		font-weight: $bold;
+		text-shadow: $tertiary 0.1em 0.1em 0.2em;	
 	}
 	p{
 		color: $primary;
 		font-size: 25px;
 		font-weight: $regular;
-	}
-}
-
-.carousel-iphone{
-	h5{
-		color: $tertiary;
-		font-size: 30px;
-		font-weight: $bold;
-	}
-	p{
-		color: $tertiary;
-		font-size: 25px;
+		text-shadow: $tertiary 0.1em 0.1em 0.2em;
 	}
 }
 
@@ -215,7 +203,8 @@ body{
 		text-align: center;
 		font-size: 30px;
 		font-weight: $bold;
-		color: #7b2cbf;
+		color: mediumpurple;
+		text-shadow: 5px 5px 10px mediumpurple;
 	}
 }
 
@@ -223,9 +212,11 @@ h1{
 	padding: 10px;
 	font-family: $fuenteN;
 	font-size: 25px;
-	color: $accent;
+	font-weight: $bold;
+	color: $primary;
 	text-align: center;
 	margin-bottom: 15px;
+	background-color: $accent
 }
 
 h2{
@@ -251,12 +242,16 @@ h4{
 	font-size: 20px;
 	padding: 25px;
 	color: $secondary;
-	box-shadow: 7px 13px 37px whitesmoke;
+	font-family: $fuenteN;
 	.textA{
 		width: 50%;
+		box-shadow: 5px 10px gray;
+		padding: 10px;
 	}
 	.textB{
 		width: 50%;
+		box-shadow: 5px 10px gray;
+		padding: 10px;
 	}
 }
 
@@ -346,9 +341,14 @@ h4{
 }
 
 .subtitulo{
-	background-color: $accent;
+	background-color: red;
 	color: $primary;
 	text-align: center;
+}
+
+.logoPM{
+	display: flex;
+	justify-content: center;
 }
 
 #textFormat{
@@ -359,23 +359,54 @@ h4{
 	font-family: $fuenteP;
 	color: $tertiary;
 	line-height: 1.5;
-}
-
-.datos{
-	text-align: center;
-	h2{
-		font-size: 25px;
-	}
-	h3{	
-		font-size: 20px;
+	p{
+		box-shadow: 5px 10px;
+		padding: 10px;
 	}	
 }
-
-.mapa{
+	
+#info{
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: center;
+	height: 100vh;
+	.datos{
+		margin: auto;
+		text-align: center;
+		h2{
+			font-size: 25px;
+			font-weight: $bold;
+		}
+		h3{	
+			font-size: 20px;
+		}
+		.redes{
+			width: 80%;
+			max-width: 1280px;
+			margin: auto;
+			display: block;
+			width: 200px;
+			float: center;
+			h3{	
+				font-size: 20px;
+			}
+			img{
+				display: block;
+				width: 60%;
+				margin: auto;
+			}
+		}
+	}	
+	.mapa{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		margin: auto;
+	}
+	
 }
+
 
 #contenedorOfertas{
 	@include contenedorDesktop;
@@ -405,25 +436,7 @@ h4{
   	@include contenedorDesktop;
 }
 
-#pie{
-	background-color: none;
-	height: 80px;
-	width: 100%;
-	bottom: 0px;
-	.redes{
-		width: 80%;
-		max-width: 1280px;
-		margin: auto;
-		display: block;
-		width: 200px;
-		float: center;
-		img{
-			display: block;
-			width: 60%;
-			margin: auto;
-		}
-	}
-}
+
 
 .contenedorForm{
     background-color: $secondary;
@@ -475,6 +488,11 @@ h4{
 	}
 }
 
+.imgnos{
+	display: flex;
+	justify-content: center;
+}
+
 #footer{
 	background: $secondary;
 	height: 80px;
@@ -494,10 +512,11 @@ h4{
 				text-decoration: none;
 				color: $primary;
 			}
-			li:hover{
+			li a:hover{
 			    cursor:pointer;
 			    transform: translateY(-3px);
 			    transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+			    color: $accent;
 			}
 		}
 	}
@@ -537,6 +556,16 @@ h4{
 		p{
 			color: $tertiary;
 			font-size: 18px;
+		}
+	}
+
+	.iphoneMoradoTexto{
+		h3{
+			margin-top: 30px;
+			text-align: center;
+			font-size: 18px;
+			font-weight: $bold;
+			color: mediumpurple;
 		}
 	}
 
@@ -582,6 +611,32 @@ h4{
 			font-size: 18px;
 		}
 	}
+
+	.iphoneMoradoTexto{
+		h3{
+			margin-top: 30px;
+			text-align: center;
+			font-size: 18px;
+			font-weight: $bold;
+			color: mediumpurple;
+		}
+	}
+
+	.subtituloiphone{
+		background-image: url("../media/iphonemorado1.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center top;
+		height: 60vh;
+		h2{
+			margin-top: 30px;
+			text-align: center;
+			font-family: $fuenteN;
+			font-size: 30px;
+			font-weight: $bold;
+			color: mediumpurple;
+		}
+	}	
 
 	#textFormat{
 		font-size: 16px;
@@ -702,6 +757,41 @@ h4{
 		}
 	}
 }
+
+#info{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	height: 100vh;
+	.datos{
+		margin: auto;
+		text-align: center;
+		h2{
+			font-size: 20px;
+			font-weight: $bold;
+		}
+		h3{	
+			font-size: 16px;
+		}
+		.redes{
+			width: 80%;
+			max-width: 1280px;
+			margin: auto;
+			display: block;
+			width: 200px;
+			float: center;
+			h3{	
+				font-size: 16px;
+			}
+			img{
+				display: block;
+				width: 60%;
+				margin: auto;
+			}
+		}
+	}
+}		
 
 @media all and (max-width: 360px){
 	.carousel-item{
